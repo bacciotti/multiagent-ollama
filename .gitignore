@@ -14,8 +14,10 @@ Pipfile.lock
 .venv/
 .venv*/
 
-# VSCode
+# IDE settings
 .vscode/
+.idea/
+
 
 # MacOS
 .DS_Store
