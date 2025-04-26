@@ -30,7 +30,7 @@ pipenv install
 ### 4. Ensure Ollama is installed and running
 ```
 brew install ollama
-ollama pull codellama
+ollama pull llama3
 ```
 
 ### 5. Run the agent
