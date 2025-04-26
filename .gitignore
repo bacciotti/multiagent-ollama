@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env/
+
+# Pipenv
+Pipfile.lock
+
+# Virtualenvs
+.venv/
+.venv*/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Ollama models (if cached in project)
+models/
