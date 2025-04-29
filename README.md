@@ -15,16 +15,20 @@ The agent can:
 
 ## 🚀 Quickstart
 
-### 1. Install `pipenv` (if you don't have it)
+### 1. Install and open Ollama
+- [Download Ollama](https://ollama.com/download) for your OS.
+
+### 2. Install `pipenv` (if you don't have it)
 
 ```bash
 pip install pipenv
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 
-```git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+```
+git clone https://github.com/bacciotti/multiagent-ollama.git
+cd multiagent-ollama
 pipenv install
 ```
 ### 4. Ensure Ollama is installed and running
@@ -36,7 +40,7 @@ ollama pull llama3
 ### 5. Run the agent
 
 ```
-pipenv run python main.py
+make run
 ```
 
 ### 💡 Notes

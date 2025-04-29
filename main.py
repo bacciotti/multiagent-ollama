@@ -18,11 +18,15 @@ Available tools:
 - duckduckgo_search(query: str) -> str: Searches the web for relevant information.
 
 Important instructions:
-- Always use wiki() first when the question is about a country or a capital city.
-- Use duckduckgo_search() if wiki is not sufficient.
-- Never invent or create new tool names.
-- Only call available tools exactly as described above.
-- Always produce valid Python code between ```python ...```<end_code> blocks.
+- For every task, you must call at least one of the available tools in your code block.
+- If the question is about countries or capital cities, you must call the wiki() tool first.
+- If the output of wiki() contains "Sorry" or any message indicating missing knowledge, you must immediately call duckduckgo_search() instead.
+- Never retry the same tool with the same input after failure.
+- You are not allowed to invent, guess, or hallucinate answers based on internal knowledge.
+- You must strictly rely on tool outputs.
+- Never create new tool names or modify existing ones.
+- Always produce valid Python code inside ```python ...```<end_code> blocks.
+- Always end your reasoning with a final answer based on the executed code result.
 """
 
 
